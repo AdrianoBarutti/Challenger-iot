@@ -8,7 +8,7 @@ No projeto real, a identificação e alocação da vaga são feitas por meio do 
 
 Este é o trabalho desenvolvido para o Desafio Challenger, no qual aplicamos conceitos de IoT (Internet das Coisas) e integração com plataformas de dados online para monitoramento em tempo real.
 
-==================================================================================================================================================================================================================================================================================
+
 
 # Como funciona o código
 Hardware
@@ -31,7 +31,7 @@ Gera um ID aleatório para a moto (1 a 100).
 
 Envia os dados para o ThingSpeak via HTTP GET.
 
-===============================================================================================================================================================================================================================================================================
+
 
 # Dados enviados para o ThingSpeak
 API Key: "KM1TD5SNYB924OHR" (chave para atualizar o canal ThingSpeak).
@@ -46,7 +46,7 @@ field3: Status da vaga (1 = ocupada)
 
 Cada vez que o botão é pressionado, uma nova linha de dados é enviada para o canal ThingSpeak.
 
-===============================================================================================================================================================================================================================================================================
+
 
 # Visualização dos dados no ThingSpeak
 Para acessar e visualizar os dados, acesse o link abaixo:
@@ -62,7 +62,7 @@ Gráfico 3: Status da Vaga
 
 No caso, o gráfico 3 sempre vai mostrar o número 1, pois a vaga sempre é recomendada livre e marcada como ocupada.
 
-===============================================================================================================================================================================================================================================================================
+
 # Como usar o código
 
 1-Acesse o repositório no GitHub:
@@ -82,12 +82,12 @@ Essa mensagem indica que os dados foram enviados com sucesso para o ThingSpeak.
 8-Para verificar os dados em tempo real, acesse o canal ThingSpeak no link:
 https://thingspeak.mathworks.com/channels/2971903
 
-===============================================================================================================================================================================================================================================================================
+
 # Conclusão
 
 Este projeto demonstra como usar o ESP32 para simular o controle de vagas via escaneamento de QR Code (substituído aqui por botão) e enviar dados para visualização em tempo real via ThingSpeak. É uma base para sistemas IoT de gerenciamento de estacionamentos e faz parte do nosso trabalho para o Desafio Challenger da empresa Moto.
 
-===============================================================================================================================================================================================================================================================================
+
 
 # Participantes
 
